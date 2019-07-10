@@ -4,7 +4,7 @@ sap.ui.define([
 	"use strict";
 
 	new Link({
-		text: "Zu Google!",
+		text: "Zu Google",
 		href: "https://google.de/"
 	}).placeAt("content");
 
