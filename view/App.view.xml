@@ -2,5 +2,4 @@
    xmlns="sap.m"
    xmlns:mvc="sap.ui.core.mvc">
    <Text text="TEXT 98235649347256"/>
-   <HTML content="<hr/>">
 </mvc:View>
