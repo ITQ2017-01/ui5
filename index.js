@@ -2,7 +2,7 @@ sap.ui.define([
 	"sap/m/Link",
 	"sap/m/Text",
 	"sap/ui/core/HTML"
-], function (Link, Text, HTML) {
+], function (Link, HTML, Text) {
 	"use strict";
 
 	new Link({
@@ -10,11 +10,11 @@ sap.ui.define([
 		href: "https://google.de/"
 	}).placeAt("content");
 
-	new Text({
-		text: "Hallo",
+	new HTML({
+		content: "<br/><hr/><br/>"
 	}).placeAt("content");
 
-	new HTML({
-		content: "<br/>test<br/>test<br/>test"
+	new Text({
+		text: "Hallo",
 	}).placeAt("content");
 });
