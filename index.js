@@ -1,7 +1,8 @@
 sap.ui.define([
 	"sap/m/Link",
-	"sap/m/Text"
-], function (Link, Text) {
+	"sap/m/Text",
+	"sap/ui/core/HTML"
+], function (Link, Text, HTML) {
 	"use strict";
 
 	new Link({
@@ -11,5 +12,9 @@ sap.ui.define([
 
 	new Text({
 		text: "Hallo",
+	}).placeAt("content");
+
+	new HTML({
+		content: "<br/>test<br/>test<br/>test";
 	}).placeAt("content");
 });
