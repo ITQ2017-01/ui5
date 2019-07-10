@@ -1,5 +1,6 @@
 sap.ui.define([
-	"sap/m/Link"
+	"sap/m/Link",
+	"sap/m/Text"
 ], function (Link) {
 	"use strict";
 
@@ -8,4 +9,8 @@ sap.ui.define([
 		href: "https://google.de/"
 	}).placeAt("content");
 
-});
+}), function(Text) {
+	new Text({
+		text: "HALLLO",
+	}).placeAt("content");
+};
