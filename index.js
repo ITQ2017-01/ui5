@@ -7,10 +7,10 @@ sap.ui.define([
 	new Link({
 		text: "Zu Google",
 		href: "https://google.de/"
-	}).placeAt("content");
+	}).placeAt("content_1");
 
 }), function(Text) {
 	new Text({
 		text: "HALLLO",
-	}).placeAt("content");
+	}).placeAt("content_2");
 };
