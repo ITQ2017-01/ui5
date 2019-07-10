@@ -1,11 +1,15 @@
 sap.ui.define([
-	"sap/m/Link",
-	"sap/ui/core/HTML",
-	"sap/m/Text"
-], function (Link, HTML, Text) {
+	"sap/ui/core/mvc/XMLView"
+], function (XMLView) {
 	"use strict";
 
-	new Link({
+	XMLView.create({
+		viewName: "sap.ui.demo.walkthrough.view.App"
+	}).then(function (oView) {
+		oView.placeAt("content");
+	});
+	
+	/*new Link({
 		text: "Zu Google",
 		href: "https://google.de/"
 	}).placeAt("content");
@@ -16,5 +20,5 @@ sap.ui.define([
 
 	new Text({
 		text: "Hallo",
-	}).placeAt("content");
+	}).placeAt("content");*/
 });
