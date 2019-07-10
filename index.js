@@ -1,3 +1,5 @@
+// new
+
 sap.ui.define([
 	"sap/m/Link",
 	"sap/m/Text"
