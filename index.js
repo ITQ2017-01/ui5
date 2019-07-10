@@ -11,7 +11,7 @@ sap.ui.define([
 	}).placeAt("content");
 
 	new HTML({
-		content: "<br/><hr/><br/>"
+		content: "<hr/>"
 	}).placeAt("content");
 
 	new Text({
