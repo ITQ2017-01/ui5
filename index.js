@@ -15,6 +15,6 @@ sap.ui.define([
 	}).placeAt("content");
 
 	new HTML({
-		content: "<br/>test<br/>test<br/>test";
+		content: "<br/>test<br/>test<br/>test"
 	}).placeAt("content");
 });
