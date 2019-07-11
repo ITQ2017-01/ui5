@@ -1,11 +1,9 @@
 <mvc:View
+   controllerName="hts.itq2017.walkthrough.controller.App"
    xmlns="sap.m"
    xmlns:mvc="sap.ui.core.mvc">
    <Text text="Rainer Text"/>
    <Link text="Google Link" href="https://google.de/"/>
    <Image src="https://www.animierte-gifs.net/data/media/107/animiertes-tanzen-bild-0243.gif"/>
-   <Image src="https://www.tricoma.de/cmssystem/meinedaten/dateien/userimg_felbel_t.jpg"/>
-   <Image src="https://www.animierte-gifs.net/data/media/107/animiertes-tanzen-bild-0243.gif"/>
-   <Input description="?" placeholder="Frage eingeben..." width="20%"/>
-   <Button text="Fragen" press="buttonPress"/>
+   <Button text="Alarm!" press="buttonPress"/>
 </mvc:View>
