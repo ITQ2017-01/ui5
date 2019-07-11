@@ -3,4 +3,5 @@
    xmlns:mvc="sap.ui.core.mvc">
    <Text text="Rainer Text"/>
    <Link text="Google Link" href="https://google.de/"/>
+   <Image src="https://www.tricoma.de/cmssystem/meinedaten/dateien/userimg_felbel_t.jpg"/>
 </mvc:View>
