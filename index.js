@@ -22,3 +22,7 @@ sap.ui.define([
 		text: "Hallo",
 	}).placeAt("content");*/
 });
+
+function buttonPress() {
+	alert("Button pressed!");
+}
