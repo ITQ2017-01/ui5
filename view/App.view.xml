@@ -3,4 +3,7 @@
    xmlns:mvc="sap.ui.core.mvc">
    <Text text="TEXT 98235649347256"/>
    <Link text="Google" href="https://google.de/"/>
+   <mvc:HTMLView>
+      <div>Test</div>
+   </mvc:HTMLView>
 </mvc:View>
