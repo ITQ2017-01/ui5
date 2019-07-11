@@ -3,7 +3,7 @@ sap.ui.define([
 ], function (Controller) {
 	"use strict";
 	return Controller.extend("hts.itq2017.walkthrough.controller.App", {
-		buttonPress : function () {
+		alertButtonPress: function() {
 			alert("ALARM!");
 		}
 	});
