@@ -1,6 +1,6 @@
 <mvc:View
    xmlns="sap.m"
    xmlns:mvc="sap.ui.core.mvc">
-   <Text text="TEXT 98235649347256"/>
-   <Link text="Google" href="https://google.de/"/>
+   <Text text="Rainer Text"/>
+   <Link text="Google Link" href="https://google.de/"/>
 </mvc:View>
