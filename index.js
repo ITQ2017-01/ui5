@@ -24,5 +24,9 @@ sap.ui.define([
 });
 
 function buttonPress() {
-	alert("Button pressed!");
+	if(Math.random() >= 0.5) {
+		alert("Das ist eine sehr dumme Frage, du Penner!");
+	} else {
+		alert("Gute Frage!");
+	}
 }
