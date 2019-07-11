@@ -27,14 +27,14 @@ function buttonPress() {
 	var rand = Math.floor(Math.random()*(5))+1;
 
 	if(rand == 1) {
-		alert("Ja!");
+		console.log("Der SAP-Guru sagt: 'Ja!'");
 	} else if(rand == 2) {
-		alert("Wahrscheinlich!");
+		console.log("Der SAP-Guru sagt: 'Wahrscheinlich!'");
 	} else if(rand == 3) {
-		alert("Vielleicht!");
+		console.log("Der SAP-Guru sagt: 'Vielleicht!'");
 	} else if(rand == 4) {
-		alert("Wahrscheinlich nicht!");
+		console.log("Der SAP-Guru sagt: 'Wahrscheinlich nicht!'");
 	} else {
-		alert("Nein!");
+		console.log("Der SAP-Guru sagt: 'Nein!'");
 	}
 }
