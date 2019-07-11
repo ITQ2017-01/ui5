@@ -24,9 +24,17 @@ sap.ui.define([
 });
 
 function buttonPress() {
-	if(Math.random() >= 0.5) {
-		alert("Das ist eine sehr dumme Frage, du Penner!");
+	var rand = Math.floor(Math.random()*(5))+1;
+
+	if(rand == 1) {
+		alert("Ja!");
+	} else if(rand == 2) {
+		alert("Wahrscheinlich!");
+	} else if(rand == 3) {
+		alert("Vielleicht!");
+	} else if(rand == 4) {
+		alert("Wahrscheinlich nicht!");
 	} else {
-		alert("Gute Frage!");
+		alert("Nein!");
 	}
 }
