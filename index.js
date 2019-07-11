@@ -9,16 +9,4 @@ sap.ui.define([
 		oView.placeAt("content");
 	});
 	
-	/*new Link({
-		text: "Zu Google",
-		href: "https://google.de/"
-	}).placeAt("content");
-
-	new HTML({
-		content: "<hr/>"
-	}).placeAt("content");
-
-	new Text({
-		text: "Hallo",
-	}).placeAt("content");*/
 });
