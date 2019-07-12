@@ -12,7 +12,7 @@ sap.ui.define([
 			MessageBox.alert("AAL!");
 		},
 		lgbtqButtonPress: function() {
-			window.open("https://i.giphy.com/media/8h34szbPdTrvq/giphy.webp", "_blank", "height=320,width=480,left=300,top=300,menubar=0,status=0,titlebar=0");
+			window.open("https://i.giphy.com/media/8h34szbPdTrvq/giphy.webp", "_blank", "height=320,width=480,left=150,top=360,menubar=0,status=0,titlebar=0");
 		}
 	});
 });
