@@ -12,7 +12,7 @@ sap.ui.define([
 			MessageBox.alert("AAL!");
 		},
 		tobiasButtonPress: function() {
-			window.open("https://www.tricoma.de/cmssystem/meinedaten/dateien/userimg_felbel_t.jpg");
+			window.open("https://media3.giphy.com/media/8h34szbPdTrvq/giphy.gif", "Let's Go Buy The Quacamole");
 		}
 	});
 });
