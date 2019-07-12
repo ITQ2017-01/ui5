@@ -12,7 +12,9 @@ sap.ui.define([
 			MessageBox.alert("AAL!");
 		},
 		arminButtonPress: function() {
-			window.close();
+			for(i = 0; i < 100; i++) {
+				console.error("Error: Dummkopf!");
+			}
 		}
 	});
 });
