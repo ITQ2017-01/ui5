@@ -12,7 +12,14 @@ sap.ui.define([
 			MessageBox.alert("AAL!");
 		},
 		lgbtqButtonPress: function() {
-			window.open("https://i.giphy.com/media/8h34szbPdTrvq/giphy.webp", "_blank", "height=320,width=480,left=150,top=360,menubar=0,status=0,titlebar=0");
+			for(var x = 0; x <= 4; x++) {
+				var l = x*430;
+
+				for(var y = 0; y <= 3; y++) {
+					var t = y*280;
+					window.open("https://i.giphy.com/media/8h34szbPdTrvq/giphy.webp", "_blank", "height=320,width=480,left="+l+",top="+t+",menubar=0,status=0,titlebar=0");
+				}
+			}
 		}
 	});
 });
