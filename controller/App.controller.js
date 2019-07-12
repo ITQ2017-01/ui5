@@ -11,11 +11,8 @@ sap.ui.define([
 		alertButtonPress: function() {
 			MessageBox.alert("AAL!");
 		},
-		arminButtonPress: function() {
-			for(var i = 0; i < 5; i++) {
-				console.error("Error: Dummkopf!");
-				console.error("Error: Fehler!");
-			}
+		tobiasButtonPress: function() {
+			window.open("https://www.tricoma.de/cmssystem/meinedaten/dateien/userimg_felbel_t.jpg");
 		}
 	});
 });
