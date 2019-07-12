@@ -9,5 +9,6 @@
    <core:HTML content="&lt;br&gt;"/>
    <Image src="https://www.animierte-gifs.net/data/media/107/animiertes-tanzen-bild-0243.gif"/>
    <core:HTML content="&lt;br&gt;"/>
-   <Button text="Alarm!" press="alertButtonPress"/>
+   <Button text="Alarm!" press="showButtonPress"/>
+   <Button text="Aal!" press="alertButtonPress"/>
 </mvc:View>

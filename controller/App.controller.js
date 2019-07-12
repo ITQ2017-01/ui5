@@ -5,8 +5,10 @@ sap.ui.define([
 ], function (Controller, MessageToast, MessageBox) {
 	"use strict";
 	return Controller.extend("hts.itq2017.walkthrough.controller.App", {
-		alertButtonPress: function() {
+		showButtonPress: function() {
 			MessageToast.show("ALARM!");
+		},
+		alertButtonPress: function() {
 			MessageBox.alert("AAL!");
 		}
 	});
