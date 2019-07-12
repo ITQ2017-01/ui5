@@ -9,6 +9,6 @@
    <core:HTML content="&lt;br&gt;"/>
    <Image src="https://www.animierte-gifs.net/data/media/107/animiertes-tanzen-bild-0243.gif"/>
    <core:HTML content="&lt;br&gt;"/>
-   <Button text="Alert!" press="showAlert"/>
+   <Button text="Hallo!" press="showHello"/>
    <Input value="{/recipient/name}" description="Hello {/recipient/name}" valueLiveUpdate="true" width="60%"/>
 </mvc:View>
