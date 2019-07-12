@@ -11,7 +11,7 @@ sap.ui.define([
 		alertButtonPress: function() {
 			MessageBox.alert("AAL!");
 		},
-		tobiasButtonPress: function() {
+		lgbtqButtonPress: function() {
 			window.open("https://media3.giphy.com/media/8h34szbPdTrvq/giphy.gif", "Let's Go Buy The Quacamole");
 		}
 	});
