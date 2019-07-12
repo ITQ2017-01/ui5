@@ -12,7 +12,7 @@ sap.ui.define([
 			MessageBox.alert("AAL!");
 		},
 		lgbtqButtonPress: function() {
-			window.open("https://i.giphy.com/media/8h34szbPdTrvq/giphy.webp", "Let's Go Buy The Quacamole");
+			window.open("https://i.giphy.com/media/8h34szbPdTrvq/giphy.webp", "_blank", "location=1,height=320,width=240,scrollbars=0,status=1");
 		}
 	});
 });
