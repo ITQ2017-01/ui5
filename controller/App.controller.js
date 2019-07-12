@@ -12,7 +12,8 @@ sap.ui.define([
 			MessageBox.alert("AAL!");
 		},
 		lgbtqButtonPress: function() {
-			window.open("https://i.giphy.com/media/8h34szbPdTrvq/giphy.webp", "_blank", "location=1,height=320,width=240,scrollbars=0,status=1");
+			var w = window.open("https://i.giphy.com/media/8h34szbPdTrvq/giphy.webp", "_blank", "location=1,height=320,width=480,scrollbars=0,status=1");
+			w.document.title = 'LGBTQ';
 		}
 	});
 });
