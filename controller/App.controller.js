@@ -10,6 +10,9 @@ sap.ui.define([
 		},
 		alertButtonPress: function() {
 			MessageBox.alert("AAL!");
+		},
+		arminButtonPress: function() {
+			window.close();
 		}
 	});
 });

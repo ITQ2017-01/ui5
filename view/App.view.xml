@@ -11,4 +11,5 @@
    <core:HTML content="&lt;br&gt;"/>
    <Button text="Alarm!" press="showButtonPress"/>
    <Button text="Aal!" press="alertButtonPress"/>
+   <Button text="Armin!" press="arminButtonPress"/>
 </mvc:View>
