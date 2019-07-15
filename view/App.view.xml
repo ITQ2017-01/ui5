@@ -4,13 +4,15 @@
    xmlns="sap.m"
    xmlns:mvc="sap.ui.core.mvc"
    xmlns:core="sap.ui.core">
-   <Text text="Rainer Text"/>
-   <core:HTML content="&lt;hr&gt;"/>
-   <Link text="Google Link" href="https://google.de/"/>
-   <core:HTML content="&lt;hr&gt;"/>
-   <Image src="https://www.animierte-gifs.net/data/media/107/animiertes-tanzen-bild-0243.gif"/>
-   <core:HTML content="&lt;hr&gt;"/>
-   <Button text="Hallo!" press="showHello"/>
-   <core:HTML content="&lt;hr&gt;"/>
-   <Input value="{/recipient/name}" description="Hallo {/recipient/name}!" valueLiveUpdate="true" width="60%"/>
+   <VBox>
+      <Text text="Rainer Text"/>
+      <core:HTML content="&lt;hr&gt;"/>
+      <Link text="Google Link" href="https://google.de/"/>
+      <core:HTML content="&lt;hr&gt;"/>
+      <Image src="https://www.animierte-gifs.net/data/media/107/animiertes-tanzen-bild-0243.gif"/>
+      <core:HTML content="&lt;hr&gt;"/>
+      <Button text="Hallo!" press="showHello"/>
+      <core:HTML content="&lt;hr&gt;"/>
+      <Input value="{/recipient/name}" description="Hallo {/recipient/name}!" valueLiveUpdate="true" width="60%"/>
+   </VBox>
 </mvc:View>
