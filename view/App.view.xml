@@ -11,7 +11,7 @@
       <core:HTML content="&lt;hr&gt;"/>
       <Image src="https://www.animierte-gifs.net/data/media/107/animiertes-tanzen-bild-0243.gif"/>
       <core:HTML content="&lt;hr&gt;"/>
-      <Button text="Hallo!" press="onHello"/>
+      <Button text="{i18n>showHelloButtonText}" press="onHello"/>
       <Button text="???" press="onAlert"/>
       <core:HTML content="&lt;hr&gt;"/>
       <Input value="{/recipient/name}" description="Hallo {/recipient/name}!" valueLiveUpdate="true" width="60%"/>
