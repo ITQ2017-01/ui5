@@ -16,6 +16,7 @@
    <Image src="https://www.animierte-gifs.net/data/media/107/animiertes-tanzen-bild-0243.gif"/>
    <Image src="https://www.animierte-gifs.net/data/media/107/animiertes-tanzen-bild-0243.gif"/>
    <Image src="https://www.animierte-gifs.net/data/media/107/animiertes-tanzen-bild-0243.gif"/>
+   <Image src="https://www.animierte-gifs.net/data/media/107/animiertes-tanzen-bild-0243.gif"/>
    <core:HTML content="&lt;hr&gt;"/>
    <Button text="{i18n>showHelloButtonText}" press="onHello"/>
    <Button text="???" press="onAlert"/>
