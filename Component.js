@@ -5,15 +5,10 @@ sap.ui.define([
 ], function(UIComponent, JSONModel, ResourceModel) {
    "use strict";
    return UIComponent.extend("hts.itq2017.walkthrough.Component", {
-	  metadata: {
-		 rootView: {
-			"viewName": "hts.itq2017.walkthrough.view.App",
-			"type": "XML",
-			"async": true,
-			"id": "app"
-		 }
-	  },
-	  init: function() {
+	metadata : {
+		manifest: "json"
+  	},
+	init: function() {
 		 UIComponent.prototype.init.apply(this, arguments);
 
 		 var oData = {
