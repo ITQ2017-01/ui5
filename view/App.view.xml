@@ -4,17 +4,22 @@
    xmlns="sap.m"
    xmlns:mvc="sap.ui.core.mvc"
    xmlns:core="sap.ui.core">
-   <VBox>
-      <Text text="Rainer Text"/>
-      <core:HTML content="&lt;hr&gt;"/>
-      <Link text="Google Link" href="https://google.de/"/>
-      <core:HTML content="&lt;hr&gt;"/>
-      <Image src="https://www.animierte-gifs.net/data/media/107/animiertes-tanzen-bild-0243.gif"/>
-      <core:HTML content="&lt;hr&gt;"/>
-      <Button text="{i18n>showHelloButtonText}" press="onHello"/>
-      <Button text="???" press="onAlert"/>
-      <core:HTML content="&lt;hr&gt;"/>
-      <Input value="{/recipient/given_name}" valueLiveUpdate="true" width="20%"/>
-      <Input value="{/recipient/family_name}" description="Hallo {/recipient/given_name} {/recipient/family_name}!" valueLiveUpdate="true" width="20%"/>
-   </VBox>
+   <Text text="Rainer Text"/>
+   <core:HTML content="&lt;hr&gt;"/>
+   <Link text="Google Link" href="https://google.de/"/>
+   <core:HTML content="&lt;hr&gt;"/>
+   <Image src="https://www.animierte-gifs.net/data/media/107/animiertes-tanzen-bild-0243.gif"/>
+   <Image src="https://www.animierte-gifs.net/data/media/107/animiertes-tanzen-bild-0243.gif"/>
+   <Image src="https://www.animierte-gifs.net/data/media/107/animiertes-tanzen-bild-0243.gif"/>
+   <Image src="https://www.animierte-gifs.net/data/media/107/animiertes-tanzen-bild-0243.gif"/>
+   <Image src="https://www.animierte-gifs.net/data/media/107/animiertes-tanzen-bild-0243.gif"/>
+   <Image src="https://www.animierte-gifs.net/data/media/107/animiertes-tanzen-bild-0243.gif"/>
+   <Image src="https://www.animierte-gifs.net/data/media/107/animiertes-tanzen-bild-0243.gif"/>
+   <Image src="https://www.animierte-gifs.net/data/media/107/animiertes-tanzen-bild-0243.gif"/>
+   <core:HTML content="&lt;hr&gt;"/>
+   <Button text="{i18n>showHelloButtonText}" press="onHello"/>
+   <Button text="???" press="onAlert"/>
+   <core:HTML content="&lt;hr&gt;"/>
+   <Input value="{/recipient/given_name}" valueLiveUpdate="true" width="20%"/>
+   <Input value="{/recipient/family_name}" description="Hallo {/recipient/given_name} {/recipient/family_name}!" valueLiveUpdate="true" width="20%"/>
 </mvc:View>
