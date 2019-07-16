@@ -21,8 +21,8 @@
                         <Button text="{i18n>showHelloButtonText}" press="onHello"/>
                         <Button text="???" press="onAlert"/>
                         <core:HTML content="&lt;hr&gt;"/>
-                        <Input value="{/recipient/given_name}" valueLiveUpdate="true" width="20%"/>
-                        <Input value="{/recipient/family_name}" description="Hallo {/recipient/given_name} {/recipient/family_name}!" valueLiveUpdate="true" width="20%"/>
+                        <Input value="{/recipient/given_name}" valueLiveUpdate="true" width="250px"/>
+                        <Input value="{/recipient/family_name}" description="Hallo {/recipient/given_name} {/recipient/family_name}!" valueLiveUpdate="true" width="500px"/>
                      </content>
                   </Panel>
                </content>
