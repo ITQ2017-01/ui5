@@ -14,8 +14,9 @@ sap.ui.define([
 		/* Event: Hello-Button */
 		onHello: function() {
 			var oBundle = this.getView().getModel("i18n").getResourceBundle();
-			var sRecipient = this.getView().getModel().getProperty("/recipient/name");
-			var sMsg = oBundle.getText("helloMsg", [sRecipient]);
+			var sRecipient1 = this.getView().getModel().getProperty("/recipient/given_name");
+			var sRecipient2 = this.getView().getModel().getProperty("/recipient/family_name");
+			var sMsg = oBundle.getText("helloMsg", [sRecipient1, sRecipient2]);
 			MessageToast.show(sMsg);
 		},
 
