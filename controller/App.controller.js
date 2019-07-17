@@ -11,7 +11,7 @@ sap.ui.define([
 	/* Controller initialisieren */
 	return Controller.extend("hts.itq2017.walkthrough.controller.App", {
 		
-		/* Event: Hello-Button */
+		/* Hello-Button (MessageToast) */
 		onHello: function() {
 			var oBundle = this.getView().getModel("i18n").getResourceBundle();
 			var sRecipient1 = this.getView().getModel().getProperty("/recipient/given_name");
@@ -20,7 +20,7 @@ sap.ui.define([
 			MessageToast.show(sMsg);
 		},
 
-		/* Event: Alert-Button */
+		/* Alert-Button (MessageAlert) */
 		onAlert: function() {
 			MessageBox.alert("ALARM, ALARM!", {
 				title: "ACHTUNG"
