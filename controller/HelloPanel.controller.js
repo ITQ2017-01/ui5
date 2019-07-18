@@ -5,7 +5,7 @@ sap.ui.define([
 ], function (Controller, MessageToast, MessageBox) {
    "use strict";
    return Controller.extend("hts.itq2017.demo.walkthrough.controller.HelloPanel", {
-      onShowHello : function () {
+      onHello: function() {
          var oBundle = this.getView().getModel("i18n").getResourceBundle();
          var sRecipient1 = this.getView().getModel().getProperty("/recipient/given_name");
          var sRecipient2 = this.getView().getModel().getProperty("/recipient/family_name");
