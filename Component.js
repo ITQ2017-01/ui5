@@ -5,7 +5,7 @@ sap.ui.define([
 ], function(UIComponent, JSONModel, ResourceModel) {
 	"use strict";
 	return UIComponent.extend("hts.itq2017.walkthrough.Component", {
-		metadata : {
+		metadata: {
 			manifest: "json"
 		},
 		init: function() {
@@ -21,7 +21,7 @@ sap.ui.define([
 			this.setModel(oModel);
 
 			var i18nModel = new ResourceModel({
-				bundleName : "hts.itq2017.walkthrough.i18n.i18n"
+				bundleName: "hts.itq2017.walkthrough.i18n.i18n"
 			});
 			this.setModel(i18nModel, "i18n");
 		}

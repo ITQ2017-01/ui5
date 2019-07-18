@@ -1,24 +1,24 @@
 <mvc:View
-   controllerName="hts.itq2017.walkthrough.controller.HelloPanel"
-   xmlns="sap.m"
-   xmlns:mvc="sap.ui.core.mvc"
-   xmlns:core="sap.ui.core">
-   <Panel
-      headerText="{i18n>helloPanelTitle}"
-      class="sapUiResponsiveMargin"
-      width="auto" >
-      <content>
-         <Text text="Rainer Text"/>
-            <core:HTML content="&lt;hr&gt;"/>
-            <Link text="Google Link" href="https://google.de/"/>
-            <core:HTML content="&lt;hr&gt;"/>
-            <Image src="https://www.animierte-gifs.net/data/media/107/animiertes-tanzen-bild-0243.gif"/>
-            <core:HTML content="&lt;hr&gt;"/>
-            <Button text="{i18n>showHelloButtonText}" press="onHello" class="sapUiSmallMarginEnd"/>
-            <Button text="???" press="onAlert"/>
-            <core:HTML content="&lt;hr&gt;"/>
-            <Input value="{/recipient/given_name}" class="sapUiSmallMarginEnd" valueLiveUpdate="true" width="250px"/>
-            <Input value="{/recipient/family_name}" description="Hallo {/recipient/given_name} {/recipient/family_name}!" valueLiveUpdate="true" width="500px"/>
-      </content>
-   </Panel>
+	controllerName="hts.itq2017.walkthrough.controller.HelloPanel"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns:core="sap.ui.core">
+	<Panel
+		headerText="{i18n>helloPanelTitle}"
+		class="sapUiResponsiveMargin"
+		width="auto" >
+		<content>
+			<Text text="Rainer Text"/>
+				<core:HTML content="&lt;hr&gt;"/>
+				<Link text="Google Link" href="https://google.de/"/>
+				<core:HTML content="&lt;hr&gt;"/>
+				<Image src="https://www.animierte-gifs.net/data/media/107/animiertes-tanzen-bild-0243.gif"/>
+				<core:HTML content="&lt;hr&gt;"/>
+				<Button text="{i18n>showHelloButtonText}" press="onHello" class="sapUiSmallMarginEnd"/>
+				<Button text="???" press="onAlert"/>
+				<core:HTML content="&lt;hr&gt;"/>
+				<Input value="{/recipient/given_name}" class="sapUiSmallMarginEnd" valueLiveUpdate="true" width="250px"/>
+				<Input value="{/recipient/family_name}" description="Hallo {/recipient/given_name} {/recipient/family_name}!" valueLiveUpdate="true" width="500px"/>
+		</content>
+	</Panel>
 </mvc:View>
