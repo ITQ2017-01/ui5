@@ -14,8 +14,9 @@ sap.ui.define([
          MessageToast.show(sMsg);
       },
       onAlert: function() {
-        MessageBox.alert("ALARM, ALARM!", {
-            title: "ACHTUNG"
-        });
+            MessageBox.alert("ALARM, ALARM!", {
+                title: "ACHTUNG"
+            });
+        }
    });
 });
